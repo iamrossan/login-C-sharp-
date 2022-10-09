@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
         {
             if(f1 == null)
             {
-                f1 = new Form1();
+                f1 = new Form1(); //creating object of new form1
                 f1.FormClosed += F1_FormClosed;
                 f1.Show();
             }
